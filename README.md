@@ -1,16 +1,17 @@
 # Proyecto_progra
+Run with cmd or vs following this codes
 
 ### bot
-> cd tic-tac-toe-bot   or    > cd tic-tac-toe-bot-dummy
+- `cd tic-tac-toe-bot`   or    -`cd tic-tac-toe-bot-dummy`
 
-> cd bot
+- `cd bot`
 
-> python main.py
+- `python main.py`
 
 
 ### API
-> cd tic-tac-toe-api
+- `cd tic-tac-toe-api`
 
-> cd app
+- `cd app`
 
-> python -m uvicorn main:app
+- `python -m uvicorn main:app`
