@@ -1,5 +1,5 @@
 # Proyecto_progra
-Run with cmd or vs following this codes
+Run with cmd or VS following this codes
 
 ### bot
 - `cd tic-tac-toe-bot`   or    `cd tic-tac-toe-bot-dummy`
