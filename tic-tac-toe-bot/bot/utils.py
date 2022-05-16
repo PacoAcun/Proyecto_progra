@@ -179,7 +179,6 @@ def decide_move(board: list, player_id: str) -> [int, int]:
                         return [row, column]
 
                 if player_id == board[i][0] == board[i][2]:
-                    print("Esta")
                     if i == 0 and board[0][1] == "-":
                         row = 0
                         column = 1
@@ -194,7 +193,6 @@ def decide_move(board: list, player_id: str) -> [int, int]:
                         row = 2
                         column = 1
                         r = 2
-                        print("ret")
                         return [row, column]
 
 
