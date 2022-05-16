@@ -400,6 +400,11 @@ def decide_move(board: list, player_id: str) -> [int, int]:
             column = 2
             return[row, column]
 
+        if player_id == "X" and board[1][1] == "O" and board[2][2] == "-":
+            row = 2
+            column = 2
+            return[row, column]
+
         if board[0][0] == "-":
             row = 0
             column = 0
