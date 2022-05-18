@@ -6,7 +6,7 @@ import requests
 from urllib.parse import unquote
 
 
-API_URL = "http://127.0.0.1:8000"
+API_URL = "http://ec2-54-234-235-91.compute-1.amazonaws.com:8000"
 
 
 def is_registry_open() -> bool:
